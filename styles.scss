@@ -1,0 +1,40 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #FFFF00;
+    background: url("https://ucarecdn.com/570f5bb6-e94c-4137-9009-b26617aca237/Grupo10945min.png") repeat-y, #FFFF00;
+    font-family: 'Rubik', sans-serif;
+    -webkit-font-smoothing: antialiased; /* Chrome y Safari */
+    -moz-osx-font-smoothing: grayscale;  /* Firefox */
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%; /* Firefox */
+}
+
+.bg-primary-500{
+    background-color: #6000FF;
+}
+.text-primary-500{
+    color: #6000FF;
+}
+
+.bg-warning-500{
+    background-color: #FFFF00;
+}
+.text-warning-500{
+    color: #FFFF00;
+}
+
+.bg-grandient-top-to-bottom{
+    background-image: linear-gradient(to bottom, #6000FF, #2E0087);
+}
+.collapse-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }

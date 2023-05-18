@@ -1,0 +1,24 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #6000FF;
+    font-family: 'Rubik', sans-serif;
+    -webkit-font-smoothing: antialiased; /* Chrome y Safari */
+    -moz-osx-font-smoothing: grayscale;  /* Firefox */
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+.bg-primary-500{
+    background-color: #6000FF;
+}
+
+.bg-warning-500{
+    background-color: #FFFF00;
+}
